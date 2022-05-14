@@ -13,10 +13,10 @@ export default function Home() {
       </div>
 
       <div className="flex flex-col bg-gray-800 w-60">
-        <div className="flex items-center h-12 px-3 shadow-md">
+        <div className="flex items-center h-12 px-3 text-white shadow-md">
           Tailwind CSS
         </div>
-        <div className="flex-1 p-3 space-y-2 overflow-y-scroll text-gray-300">
+        <div className="flex-1 p-3 space-y-2 overflow-y-scroll font-medium text-gray-300">
           <p className="text-white">channel (unread)</p>
           <p className="text-white">channel (unread)</p>
           {[...Array(40)].map((_, i) => (
